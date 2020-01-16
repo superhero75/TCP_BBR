@@ -8,7 +8,7 @@ Modified by Yankee@hostloc and nanqinglang.
 ```Bash
 wget -O ./tcp_tsunami.c https://raw.githubusercontent.com/KozakaiAya/TCP_BBR/master/Master/tcp_tsunami.c
 
-wget -O ./tcp_tsunami.c https://github.com/superhero75/TCP_BBR/blob/master/tcp_tsunami.c
+wget -O ./tcp_tsunami.c https://github.com/superhero75/TCP_BBR/blob/master/v4.15/tcp_bbrplus.c
 
 echo "obj-m:=tcp_tsunami.o" > Makefile
 make -C /lib/modules/$(uname -r)/build M=`pwd` modules CC=/usr/bin/gcc
